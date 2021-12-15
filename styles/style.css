@@ -63,10 +63,10 @@
   font-weight: 400;
   z-index: 2;
 }
-a.link:after {
+a.header__link:after {
   content: '\27F6';
 }
-a.link {
+a.header__link {
   color: #2f80ed;
 }
 .header__square-pic {
@@ -199,16 +199,59 @@ p3 {
 }
 /*---------feinman------*/
 .feynman {
+  background-color: #f2f2f2;
   height: 890px;
-  /*----border----*/
-  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 .feynman__title {
+  width: 648px;
+  margin: 100px 0 0 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 3;
 }
 .feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  display: flex;
+  margin: 70px 0 0 0;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  z-index: 2;
 }
-.link {
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: auto;
+  bottom: auto;
+  z-index: 1;
 }
 .feynman__background-img {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  z-index: 0;
 }
-
+a.feynman__link:after {
+  content: '\27F6';
+}
+a.feynman__link {
+  color: #2f80ed;
+}
