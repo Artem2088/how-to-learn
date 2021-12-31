@@ -217,13 +217,12 @@
   top: 50%;
   right: 48px;
   z-index: 1;
+  color: #2f80ed;
 }
 .feynman__link:after {
   content: '\27F6';
 }
-.feynman__link {
-  color: #2f80ed;
-}
+
 
 
 /*----------Kaufman---------------*/
