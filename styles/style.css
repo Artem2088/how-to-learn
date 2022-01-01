@@ -62,6 +62,7 @@
 }
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 .header__square-pic {
   position: absolute;
@@ -218,6 +219,7 @@
   right: 48px;
   z-index: 1;
   color: #2f80ed;
+  text-decoration: none;
 }
 .feynman__link:after {
   content: '\27F6';
@@ -333,7 +335,7 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  padding: 0 10px 0;
+  padding: 0 10px 0 0;
 }
 .footer__column-link {
   text-decoration: none;
