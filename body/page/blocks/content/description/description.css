@@ -1,0 +1,11 @@
+@import url(../description/description.css);
+@import url(../description/two-columns/two-columns.css);
+.description {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 0;
+}
+
+
+
+

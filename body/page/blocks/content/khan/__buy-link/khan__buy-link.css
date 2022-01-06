@@ -1,0 +1,17 @@
+@import url(../__buy-link/khan__buy-link.css);
+.khan__buy-link {
+  position: absolute;
+  z-index: 1;
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+.khan__buy-link:hover {
+  opacity: 0.60;
+  transition-duration: 0.5s;
+}
+.khan__buy-link:after {
+  content: '\27F6';
+}

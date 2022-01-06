@@ -1,0 +1,11 @@
+@import url(../_place_header/logo_place_header.css);
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  margin: 0;
+  left: 64px;
+  z-index: 4;
+  background-image:url(/how-to-learn/body/page/sprint-2-sources/images/logo_place_header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

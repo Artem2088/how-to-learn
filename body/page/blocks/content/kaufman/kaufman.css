@@ -1,0 +1,30 @@
+@import url(../kaufman/kaufman.css);
+@import url(../kaufman/section-title/_theme_dark/section-title_theme_dark.css);
+@import url(../kaufman/section-sutitle/_theme_dark/section-subtitle_theme_dark.css);
+@import url(../kaufman/table/_theme_dark/table_theme_dark.css);
+@import url(../kaufman/table/_theme/table__cell_theme_dark.css);
+@import url(../kaufman/table/_theme/table__heading_theme_dark.css);
+@import url(../kaufman/table/_theme/table__text_theme_dark.css);
+@import url(../kaufman/__triangle/kaufman__triangle.css);
+@keyframes rotation {
+  from {
+ transform: rotate(0deg);
+}
+  to {
+  transform: rotate(360deg);
+  }
+}
+.kaufman {
+  background-color:  #1f1f1f;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 90px 0 90px 0;
+}
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+@import url(../_content/footer__column_content_copyrigt.css);
+.footer__column_content_copyrigt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}

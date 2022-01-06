@@ -1,0 +1,9 @@
+@import url(../_place_footer/logo_place_footer.css);
+.logo_place_footer {
+  text-align: start;
+  width: 183px;
+  height: 35px;
+  background-image: url(/how-to-learn/body/page/sprint-2-sources/images/logo_place_footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
